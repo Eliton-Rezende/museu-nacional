@@ -1,0 +1,169 @@
+body{
+	background: #f4f2ec url(../imagens/fundo.png) repeat-x;
+	font:12px "Lucida Grande", "Lucida Sans Umicode", Arial, sans-serif ;
+
+}
+
+#container{
+	width: 1080px;
+	margin: 0 auto;
+}
+
+a:link, a:active, a:visited{
+	color: #af670a;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #227115;
+} 
+
+#logo{
+	margin: 0px;
+}
+
+ header, #logo {
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+}
+
+img{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	padding: 15px;
+	height: 55px;
+}
+
+nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav ul li{
+	display: inline;
+}
+
+nav ul li a:link{
+	margin-right: 25px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+	
+}
+
+nav ul li a:hover{
+	border-bottom: 1px solid #535858;
+}
+
+#box{
+	display: flex;
+
+}
+
+#conteudo{
+	
+	width: 710px;
+	color: white;
+	
+
+}
+aside{
+	margin: 0 15px;
+	width: 350px;
+	color: white;
+	
+
+}
+
+section#visita{
+	background-color: #cdc8b1;
+	padding: 10px 27px 27px 27px;
+	margin-top: 10px;
+
+}
+
+
+section#galeria {
+	background-color: #ECE4E4;
+	padding: 20px 20px 20px;
+
+}	
+
+section#galeria a {
+	width: 300px;
+	background: url(../imagens/fundo-foto.png) no-repeat;
+	padding: 20px 20px 20px 15px;
+	
+
+}
+
+.fotos{
+	margin-left: 15px;
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-around;
+	
+
+}
+
+
+
+h4{
+	color: #86521a;
+	text-transform: uppercase;
+	margin-top: 0;
+	
+}
+
+h3{
+	color: #227115;
+	font-size: 1.0em;
+	margin-bottom: 15px;
+	text-transform: uppercase; 
+}
+
+
+input{
+	height: 20px;
+	width: 80px;
+	background: #fff;
+	border: none;
+	font-size: 1em;
+
+}
+
+input.campo{
+	border: 1px solid #ada484;
+
+}
+
+input.botao{
+	background: #9b9271;
+	color: white;
+	width: 100%;
+	height: 40px;
+	font-size: 1.2em;
+}
+
+fieldset{
+	border: none;
+
+}
+
+legend{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
